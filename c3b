@@ -1,0 +1,14 @@
+if [ -z "$1" ]; then
+  echo "Usage: $0 <filename>"
+  exit 1
+fi
+
+filename="$1"
+
+if [ ! -f "$filename" ]; then
+  echo "$filename does not exist!"
+  exit 1
+fi
+
+termux-elf-cleaner "$filename"
+echo "Converted $filename"
