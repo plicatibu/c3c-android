@@ -25,7 +25,8 @@ pkg install llvm llvmgold binutils binutils-gold libgc build-essential cmake llv
 ## Downloading the C3C Repository and Compiling
 
 You will have to complete a few steps to do this, first paste this in your terminal:
-```git clone https://github.com/c3lang/c3c.git
+```
+git clone https://github.com/c3lang/c3c.git
 cd c3c
 mkdir build
 cd build
