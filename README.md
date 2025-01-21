@@ -1,6 +1,7 @@
 # C3C-android
 A repository that will teach you how to download and execute C3C Compiler and run C3 in termux.
 
+### Please Make a issue if any of the doesn't works, more dependencies may have to be added.
 ## Downloading and Setting Up Termux
 
 ### To download and Setup Termux you have to:
