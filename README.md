@@ -18,7 +18,9 @@ For this step you will need to install several dependencies and this can take a 
 ### Please make a issue if any dependencies are missing.
 Run this on your terminal 
 
-```pkg install llvm llvmgold binutils binutils-gold libgc build-essential cmake llvm git libedit zlib clang make mlir llvm-tools libpolly python -y```
+```
+pkg install llvm llvmgold binutils binutils-gold libgc build-essential cmake llvm git libedit zlib clang make mlir llvm-tools libpolly python -y
+```
 
 ## Downloading the C3C Repository and Compiling
 
@@ -28,7 +30,8 @@ cd c3c
 mkdir build
 cd build
 cmake ..
-make```
+make
+```
 After this you should have an executable on your directory.
 
 ## Setting Up the Compiler
@@ -36,9 +39,12 @@ After this you should have an executable on your directory.
 The next steps will be a bit more complex so I created a bash script to do this for you. This happens because Termux is different of a real linux enviroment.
 
 You can run this on your terminal:
-```wget https://github.com/nertiner/c2c-termux/setup.sh
+```
+cd
+wget https://github.com/Nertiner/c3c-android/setup.sh
 chmod +x setup.sh
-./setup.sh```
+./setup.sh
+```
 This will take some time so please be patient. 
 After it finishes you will have c3c compiler almost ready for you.
 ### But we are not done yet
