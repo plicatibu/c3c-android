@@ -74,7 +74,7 @@ The next steps below are just testing and more information.
 You can test it by running 
 ```cd
 mkdir HelloC3Project
-cs HelloC3Project
+cd HelloC3Project
 nano helloc3.c3
 ```
 
