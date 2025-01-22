@@ -95,7 +95,7 @@ Press CTRL + S and CTLR + X
 Compile it, convert and run with:
 
 ```
-c3c helloc3.c3
+c3c compile helloc3.c3
 c3b helloc3
 ./helloc3
 ```
