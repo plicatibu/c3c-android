@@ -107,4 +107,9 @@ You should see this after running:
 And that is it!
 Have fun with C3, any issues related to the language compiler itself please report in the C3C github repository: 
 https://github.com/c3lang/c3c
+
+### Screenshot
+
+![Terminal Screenshot](screenshot.jpg)
+
 ## Have Fun!
