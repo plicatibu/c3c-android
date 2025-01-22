@@ -43,7 +43,7 @@ The next steps will be a bit more complex so I created a bash script to do this 
 You can run this on your terminal:
 ```
 cd
-wget https://github.com/Nertiner/c3c-android/setup.sh
+wget https://raw.githubusercontent.com/Nertiner/c3c-android/refs/heads/main/setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
