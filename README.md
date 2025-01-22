@@ -8,7 +8,8 @@ A repository that will teach you how to download and execute C3C Compiler and ru
 Download Termux Apk By Clicking [Here](https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk)
 
 Open it and paste this:
-```termux-setup-storage
+```
+termux-setup-storage
 pkg update && pkg upgrade -y
 apt install git wget -y
 ```
@@ -72,14 +73,16 @@ The next steps below are just testing and more information.
 ## Testing C3C
 
 You can test it by running 
-```cd
+```
+cd
 mkdir HelloC3Project
 cd HelloC3Project
 nano helloc3.c3
 ```
 
 Then you paste this:
-```module helloc3;
+```
+module helloc3;
 import std::io;
 
 fn void main()
@@ -91,7 +94,8 @@ io::printn("Hello, C3!");
 Press CTRL + S and CTLR + X
 Compile it, convert and run with:
 
-```c3c helloc3.c3
+```
+c3c helloc3.c3
 c3b helloc3
 ./helloc3
 ```
