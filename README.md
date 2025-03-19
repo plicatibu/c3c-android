@@ -21,7 +21,7 @@ For this step you will need to install several dependencies and this can take a 
 Run this on your terminal 
 
 ```
-pkg install llvm llvmgold binutils binutils-gold libgc build-essential cmake llvm git libedit zlib clang make mlir llvm-tools libpolly python -y
+pkg install llvm llvmgold libllvm-static binutils binutils-gold libgc build-essential cmake llvm git libedit zlib clang make mlir llvm-tools libpolly python -y
 ```
 
 ## Downloading the C3C Repository and Compiling
